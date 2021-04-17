@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <title>nav</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container">
+        <a href="" class="navbar-brand">Navbar brand </a>
+        <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="" class="nav-link">Nav-link</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Nav-link</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Nav-link</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Nav-link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h2 class="mb-3 mt-5 text-center judul-text">Image Slider Manual Navigation Buttons</h2>
+    <section class="carousell">
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+          <input type="radio" name="radio-btn" id="radio5" />
+          <div class="slide first">
+            <img src="./img/1.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/2.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/3.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/4.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+          <div class="auto-btn5"></div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+
+          <label for="radio3" class="manual-btn"></label>
+
+          <label for="radio4" class="manual-btn"></label>
+
+          <label for="radio5" class="manual-btn"></label>
+        </div>
+      </div>
+    </section>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
